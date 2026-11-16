@@ -36,3 +36,23 @@ test('spaces', () => {
 
 * 9
 
+<img width="390" height="211" alt="image" src="https://github.com/user-attachments/assets/2d3aa011-dc02-4d46-9781-ac73102aa9bb" />
+
+* 16
+
+<img width="363" height="194" alt="image" src="https://github.com/user-attachments/assets/bef09517-18ec-4903-a37b-f6e7d189c4ff" />
+
+* 18
+Ühiktest kontrollib, kas programmi väike osa töötab õigesti
+test(): määrab testi
+expect(): määrab oodatava tulemuse
+toBe(): kontrollib, kas tulemus võrdub oodatuga
+Expected: oodatav tulemus
+Received: tegelikult saadud tulemus
+toThrow() kontrollib, kas funktsioon tekitab vea
+test.each võimaldab käivitada sama testi mitme erineva väärtusega
+npm test käivitab kõik testid
+npm run coverage näitab, kui suur osa koodist on testidega kaetud
+Red – kirjutatakse test, mis ebaõnnestub
+Green – kirjutatakse kood, mis paneb testi läbima
+Refactor – parandatakse koodi struktuuri ilma selle tööd muutmata
