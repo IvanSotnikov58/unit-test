@@ -26,9 +26,9 @@ test('spaces', () => {
 })
 
 * 7
-  
-<img width="495" height="144" alt="Screenshot 2026-11-16 125004" src="https://github.com/user-attachments/assets/2a46fe64-d04a-49c3-9daa-331f6612b314" />
+
 <img width="357" height="192" alt="Screenshot 2026-11-16 125014" src="https://github.com/user-attachments/assets/f5205743-3eb5-4f1c-98eb-4d37fb0c5dcb" />
+<img width="495" height="144" alt="Screenshot 2026-11-16 125004" src="https://github.com/user-attachments/assets/2a46fe64-d04a-49c3-9daa-331f6612b314" />
 
 * 8
 
@@ -44,15 +44,27 @@ test('spaces', () => {
 
 * 18
 Ühiktest kontrollib, kas programmi väike osa töötab õigesti
+
 test(): määrab testi
+
 expect(): määrab oodatava tulemuse
+
 toBe(): kontrollib, kas tulemus võrdub oodatuga
+
 Expected: oodatav tulemus
+
 Received: tegelikult saadud tulemus
+
 toThrow() kontrollib, kas funktsioon tekitab vea
+
 test.each võimaldab käivitada sama testi mitme erineva väärtusega
+
 npm test käivitab kõik testid
+
 npm run coverage näitab, kui suur osa koodist on testidega kaetud
+
 Red – kirjutatakse test, mis ebaõnnestub
+
 Green – kirjutatakse kood, mis paneb testi läbima
+
 Refactor – parandatakse koodi struktuuri ilma selle tööd muutmata
