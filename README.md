@@ -32,3 +32,7 @@ test('spaces', () => {
 
 * 8
 
+<img width="422" height="224" alt="image" src="https://github.com/user-attachments/assets/bdb0811a-5bf2-4299-b9c0-39ef429e81dd" />
+
+* 9
+
