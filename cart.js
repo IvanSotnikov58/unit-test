@@ -17,12 +17,8 @@ let total = subtotal;
     total = total * 0.9;
   }
 
-    if (discountCode === 'FREESHIP' && total < 100) {
-    total -= 5;
-  }
-
   // Tahtlik viga: saatmiskulu tingimus tuleb testide abil leida.
-if (subtotal < 100) {
+if (subtotal < 100 && discountCode !== 'FREESHIP') {
   total += 5;
 }
 
